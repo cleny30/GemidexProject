@@ -10,31 +10,30 @@ The Gemidex project consists of two main components:
 ## Directory Structure
 
 /Gemidex
-└── [Android Studio Project Files]
-└── app/
-└── com.example.gemidex
-└── Constant
-└── Model
-└── Service
-└── gradle/
-└── build.gradle
+├── [Android Studio Project Files]
+├── app/
+│ ├── com.example.gemidex
+│ ├── Constant
+│ ├── Model
+│ └── Service
+├── gradle/
+├── build.gradle
 └── settings.gradle
 
 /GemidexAPI
-└── [ASP.NET API Project Files]
-└── Controllers/
-└── AccountController.cs
-└── GemidexController.cs
-└── Core
-└── DbHelperExtentions.cs
-└── Models/
-└── Entity
-└── Dto
-└── DataAccess
-└── GemidexContext.cs
-└── appsettings.json
+├── [ASP.NET API Project Files]
+├── Controllers/
+│ ├── AccountController.cs
+│ └── GemidexController.cs
+├── Core
+│ └── DbHelperExtentions.cs
+├── Models/
+│ ├── Entity
+│ └── Dto
+├── DataAccess
+│ └── GemidexContext.cs
+├── appsettings.json
 └── GemidexAPI.csproj
-
 
 ## Installation
 
