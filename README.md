@@ -7,6 +7,7 @@ The Gemidex project consists of two main components:
 1. **Gemidex (Android Studio Project)**: An Android application designed to scan Pokémon and other objects, providing detailed information about them. If the user is logged in, the app also stores the scanned data for future reference.
 2. **GemidexAPI (ASP.NET RESTful API)**: A backend API that supports the Gemidex application by providing data and managing user accounts.
 
+**Note:** This project is intended for study purposes only and is not for commercial use.
 ## Directory Structure
 ```bash
 /Gemidex
