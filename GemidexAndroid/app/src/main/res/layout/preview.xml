@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/captured_image"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView android:id="@+id/rectangle_19"
+            android:src="@drawable/shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/rectangle_8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:src="@drawable/bg_header" />
+
+        <ImageView
+            android:id="@+id/rectangle_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60.5dp"
+            android:src="@drawable/rectangle_5" />
+
+        <View
+            android:id="@+id/ellipse_1"
+            android:layout_width="95.33dp"
+            android:layout_height="95.34dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/ellipse_1" />
+
+        <View
+            android:id="@+id/ellipse_2"
+            android:layout_width="93.47dp"
+            android:layout_height="93.47dp"
+            android:layout_marginStart="23.04dp"
+            android:layout_marginTop="15.83dp"
+            android:background="@drawable/ellipse_2" />
+
+        <View
+            android:id="@+id/ellipse_4"
+            android:layout_width="71.27dp"
+            android:layout_height="71.28dp"
+            android:layout_marginStart="34.27dp"
+            android:layout_marginTop="26.01dp"
+            android:background="@drawable/ellipse_4" />
+
+        <View
+            android:id="@+id/ellipse_3"
+            android:layout_width="13.58dp"
+            android:layout_height="13.58dp"
+            android:layout_marginStart="62.99dp"
+            android:layout_marginTop="72.22dp"
+            android:alpha="0.54"
+            android:background="@drawable/ellipse_3" />
+
+        <ImageView
+            android:id="@+id/ellipse_5"
+            android:layout_width="45.69dp"
+            android:layout_height="24.52dp"
+            android:layout_marginStart="47.06dp"
+            android:layout_marginTop="32.93dp"
+            android:src="@drawable/ellipse_5" />
+
+        <FrameLayout
+            android:id="@+id/group_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="133dp"
+            android:layout_marginTop="17dp">
+
+            <View
+                android:id="@+id/ellipse_4_1"
+                android:layout_width="32.38dp"
+                android:layout_height="32.38dp"
+                android:background="@drawable/ellipse_4_1" />
+
+            <ImageView
+                android:id="@+id/ellipse_3_1"
+                android:layout_width="6.17dp"
+                android:layout_height="6.17dp"
+                android:layout_marginStart="13.05dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.54"
+                android:background="@drawable/ellipse_3" />
+
+            <ImageView
+                android:id="@+id/ellipse_5_1"
+                android:layout_width="20.76dp"
+                android:layout_height="11.14dp"
+                android:layout_marginStart="5.81dp"
+                android:layout_marginTop="3.14dp"
+                android:src="@drawable/ellipse_5" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/group_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="172.35dp"
+            android:layout_marginTop="17dp">
+
+            <View
+                android:id="@+id/ellipse_4_2"
+                android:layout_width="32.38dp"
+                android:layout_height="32.38dp"
+                android:background="@drawable/ellipse_4_2" />
+
+            <ImageView
+                android:id="@+id/ellipse_3_2"
+                android:layout_width="6.17dp"
+                android:layout_height="6.17dp"
+                android:layout_marginStart="13.05dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.54"
+                android:background="@drawable/ellipse_3" />
+
+            <ImageView
+                android:id="@+id/ellipse_5_2"
+                android:layout_width="20.76dp"
+                android:layout_height="11.14dp"
+                android:layout_marginStart="5.81dp"
+                android:layout_marginTop="3.14dp"
+                android:src="@drawable/ellipse_5" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/group_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="211.69dp"
+            android:layout_marginTop="17dp">
+
+            <View
+                android:id="@+id/ellipse_4_3"
+                android:layout_width="32.38dp"
+                android:layout_height="32.38dp"
+                android:background="@drawable/ellipse_4_3" />
+
+            <ImageView
+                android:id="@+id/ellipse_3_3"
+                android:layout_width="6.17dp"
+                android:layout_height="6.17dp"
+                android:layout_marginStart="13.05dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.54"
+                android:background="@drawable/ellipse_3" />
+
+            <ImageView
+                android:id="@+id/ellipse_5_3"
+                android:layout_width="20.76dp"
+                android:layout_height="11.14dp"
+                android:layout_marginStart="5.81dp"
+                android:layout_marginTop="3.14dp"
+                android:src="@drawable/ellipse_5" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/image_content"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/Camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:layout_marginTop="10dp"
+            android:fontFamily="monospace"
+            android:text=""
+            android:layout_marginEnd="5dp"
+            android:textColor="#FFFFFF"
+            android:textSize="56sp"
+            android:typeface="sans"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View   android:id="@+id/rectangle_18"
+            android:background="@drawable/content_bg"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="220dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View   android:id="@+id/pokeball_prw"
+            android:background="@drawable/pokeball_prw"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="330dp"
+            android:layout_width="401dp"
+            android:layout_height="401dp" />
+<!-- -&#45;&#45;-->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginBottom="100dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/pokemon_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Pokemon Name"
+                    android:layout_marginLeft="29dp"
+                    android:textColor="#000000"
+                    android:textSize="36sp"
+                    android:typeface="sans"/>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp">
+
+                    <ImageView
+                        android:id="@+id/type_icon"
+                        android:background="@drawable/type_icon_normal"
+                        android:layout_width="153dp"
+                        android:layout_height="55dp" />
+
+                </FrameLayout>
+
+                <TextView android:id="@+id/description"
+                    android:fontFamily=""
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="29dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="345dp"
+                    android:layout_height="wrap_content"
+                    android:text="A mammal is a vertebrate animal of the clas Mammalia A neocortex region ot the brain fur or hair, and three middle ear bones.a" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="37dp">
+
+                        <View   android:id="@+id/weight"
+                            android:background="@drawable/weight"
+                            android:layout_width="148dp"
+                            android:layout_height="71dp" />
+
+                        <TextView
+                            android:id="@+id/weight_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily=""
+                            android:layout_marginTop="15dp"
+                            android:layout_marginStart="15dp"
+                            android:text="200 grams"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
+                            android:typeface="sans"
+                            android:textAlignment="center"
+                            android:layout_marginEnd="16dp"/>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="37dp"
+                        android:layout_gravity="end|bottom">
+
+                        <View   android:id="@+id/height"
+                            android:background="@drawable/height"
+                            android:layout_width="148dp"
+                            android:layout_height="71dp"/>
+
+                        <TextView
+                            android:id="@+id/height_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily=""
+                            android:layout_marginTop="15dp"
+                            android:layout_marginStart="15dp"
+                            android:text="50 cm"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
+                            android:typeface="sans"
+                            android:textAlignment="center"
+                            android:layout_marginEnd="16dp"/>
+                    </FrameLayout>
+
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="37dp"
+                        >
+                        <View   android:id="@+id/category"
+                            android:background="@drawable/category"
+                            android:layout_width="148dp"
+                            android:layout_height="71dp" />
+
+                        <TextView
+                            android:id="@+id/category_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily=""
+                            android:layout_marginTop="15dp"
+                            android:layout_marginStart="15dp"
+                            android:text="Mammal"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
+                            android:typeface="sans"
+                            android:textAlignment="center"
+                            android:layout_marginEnd="16dp"/>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="37dp"
+                        android:layout_gravity="end|bottom">
+
+                        <View   android:id="@+id/speed"
+                            android:background="@drawable/speed"
+                            android:layout_width="148dp"
+                            android:layout_height="71dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/speed_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily=""
+                            android:layout_marginTop="15dp"
+                            android:layout_marginStart="15dp"
+                            android:text="50"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
+                            android:typeface="sans"
+                            android:textAlignment="center"
+                            android:layout_marginEnd="16dp"/>
+                    </FrameLayout>
+
+
+                </FrameLayout>
+            </LinearLayout>
+        </ScrollView>
+
+<!-- -&#45;&#45;-->
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp">
+
+                <ImageView
+                    android:id="@+id/snap_pokeball"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="25dp"
+                    android:src="@drawable/snap_pokeball"
+                    android:layout_gravity="bottom|center"
+                    />
+
+                <TextView
+                    android:id="@+id/snap_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:text="Snaps"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:typeface="sans" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp">
+
+                <ImageView
+                    android:id="@+id/store"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="25dp"
+                    android:src="@drawable/store"
+                    android:layout_gravity="bottom|center"
+                    />
+
+                <TextView
+                    android:id="@+id/store_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:text="Store"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:typeface="sans" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+
+                >
+
+                <ImageView
+                    android:id="@+id/list_team"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="25dp"
+                    android:src="@drawable/list"
+                    android:layout_gravity="bottom|center"
+                    />
+
+                <TextView
+                    android:id="@+id/list_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:text="List"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:typeface="sans" />
+                />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:id="@+id/profile_icon"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="25dp"
+                    android:src="@drawable/profile"
+                    android:layout_gravity="bottom|center"
+                    />
+
+                <TextView
+                    android:id="@+id/profile_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:text="Profile"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:typeface="sans" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:id="@+id/line_2"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@drawable/line_prw"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.903" />
+
+    <View
+        android:id="@+id/line_3"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@drawable/line_prw"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91" />
+
+    <ImageView
+        android:id="@+id/snapBtn"
+        android:layout_width="93.47dp"
+        android:layout_height="93.47dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/snap_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

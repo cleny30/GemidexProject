@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#313B49">
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/line"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <FrameLayout
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/rectangle_8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:src="@drawable/bg_header" />
+
+        <ImageView
+            android:id="@+id/rectangle_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60.5dp"
+            android:src="@drawable/rectangle_5" />
+
+        <View
+            android:id="@+id/ellipse_1"
+            android:layout_width="95.33dp"
+            android:layout_height="95.34dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/ellipse_1" />
+
+        <View
+            android:id="@+id/ellipse_2"
+            android:layout_width="93.47dp"
+            android:layout_height="93.47dp"
+            android:layout_marginStart="23.04dp"
+            android:layout_marginTop="15.83dp"
+            android:background="@drawable/ellipse_2" />
+
+        <View
+            android:id="@+id/ellipse_4"
+            android:layout_width="71.27dp"
+            android:layout_height="71.28dp"
+            android:layout_marginStart="34.27dp"
+            android:layout_marginTop="26.01dp"
+            android:background="@drawable/ellipse_4" />
+
+        <View
+            android:id="@+id/ellipse_3"
+            android:layout_width="13.58dp"
+            android:layout_height="13.58dp"
+            android:layout_marginStart="62.99dp"
+            android:layout_marginTop="72.22dp"
+            android:alpha="0.54"
+            android:background="@drawable/ellipse_3" />
+
+        <ImageView
+            android:id="@+id/ellipse_5"
+            android:layout_width="45.69dp"
+            android:layout_height="24.52dp"
+            android:layout_marginStart="47.06dp"
+            android:layout_marginTop="32.93dp"
+            android:src="@drawable/ellipse_5" />
+
+        <FrameLayout
+            android:id="@+id/group_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="133dp"
+            android:layout_marginTop="17dp">
+
+            <View
+                android:id="@+id/ellipse_4_1"
+                android:layout_width="32.38dp"
+                android:layout_height="32.38dp"
+                android:background="@drawable/ellipse_4_1" />
+
+            <ImageView
+                android:id="@+id/ellipse_3_1"
+                android:layout_width="6.17dp"
+                android:layout_height="6.17dp"
+                android:layout_marginStart="13.05dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.54"
+                android:background="@drawable/ellipse_3" />
+
+            <ImageView
+                android:id="@+id/ellipse_5_1"
+                android:layout_width="20.76dp"
+                android:layout_height="11.14dp"
+                android:layout_marginStart="5.81dp"
+                android:layout_marginTop="3.14dp"
+                android:src="@drawable/ellipse_5" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/group_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="172.35dp"
+            android:layout_marginTop="17dp">
+
+            <View
+                android:id="@+id/ellipse_4_2"
+                android:layout_width="32.38dp"
+                android:layout_height="32.38dp"
+                android:background="@drawable/ellipse_4_2" />
+
+            <ImageView
+                android:id="@+id/ellipse_3_2"
+                android:layout_width="6.17dp"
+                android:layout_height="6.17dp"
+                android:layout_marginStart="13.05dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.54"
+                android:background="@drawable/ellipse_3" />
+
+            <ImageView
+                android:id="@+id/ellipse_5_2"
+                android:layout_width="20.76dp"
+                android:layout_height="11.14dp"
+                android:layout_marginStart="5.81dp"
+                android:layout_marginTop="3.14dp"
+                android:src="@drawable/ellipse_5" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/group_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="211.69dp"
+            android:layout_marginTop="17dp">
+
+            <View
+                android:id="@+id/ellipse_4_3"
+                android:layout_width="32.38dp"
+                android:layout_height="32.38dp"
+                android:background="@drawable/ellipse_4_3" />
+
+            <ImageView
+                android:id="@+id/ellipse_3_3"
+                android:layout_width="6.17dp"
+                android:layout_height="6.17dp"
+                android:layout_marginStart="13.05dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.54"
+                android:background="@drawable/ellipse_3" />
+
+            <ImageView
+                android:id="@+id/ellipse_5_3"
+                android:layout_width="20.76dp"
+                android:layout_height="11.14dp"
+                android:layout_marginStart="5.81dp"
+                android:layout_marginTop="3.14dp"
+                android:src="@drawable/ellipse_5" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/snapBtn"
+        android:layout_width="93.47dp"
+        android:layout_height="93.47dp"
+        android:background="@drawable/snap_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/line"
+        app:layout_constraintVertical_bias="0.979" />
+
+    <TextView
+        android:id="@+id/__p__snap_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Snap!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <View
+        android:id="@+id/camera_zone"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="154dp"
+        android:background="@drawable/camera_zone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- res/layout/camera.xml -->
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/button"
+        android:layout_width="336dp"
+        android:layout_height="336dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/camera_lens"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextureView
+            android:id="@+id/camera_lens"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/camera_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@android:dimen/thumbnail_height"
+        app:layout_constraintBottom_toBottomOf="@+id/snapBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/Camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="104dp"
+            android:layout_marginTop="500dp"
+            android:fontFamily="monospace"
+            android:text="Camera"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="56sp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="578dp"
+            android:fontFamily="monospace"
+            android:text="capture a photo of anything"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:typeface="sans" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/loading"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71000004">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:fontFamily="monospace"
+            android:text="Loading..."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:typeface="sans" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
