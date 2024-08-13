@@ -1,8 +1,6 @@
 ﻿using GemidexAPI.Model;
 using GemidexAPI.Model.Dto;
-using GemidexAPI.Model.Entity;
 using GemidexAPI.Service;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GemidexAPI.Controllers
