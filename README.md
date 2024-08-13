@@ -8,7 +8,7 @@ The Gemidex project consists of two main components:
 2. **GemidexAPI (ASP.NET RESTful API)**: A backend API that supports the Gemidex application by providing data and managing user accounts.
 
 ## Directory Structure
-
+```bash
 Gemidex
 ├── [Android Studio Project Files]
 ├── app                    
@@ -19,7 +19,7 @@ Gemidex
 ├── gradle
 ├── build.gradle
 └── settings.gradle
-
+```
 
 
 /GemidexAPI
