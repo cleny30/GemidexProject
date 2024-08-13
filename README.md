@@ -9,16 +9,18 @@ The Gemidex project consists of two main components:
 
 ## Directory Structure
 
-/Gemidex
+Gemidex
 ├── [Android Studio Project Files]
-├── app/
-│ ├── com.example.gemidex
-│ ├── Constant
-│ ├── Model
-│ └── Service
-├── gradle/
+├── app                    
+│   ├── com.example.gemidex          
+│   ├── Constant
+│   ├── Constant
+│   └── Service                
+├── gradle
 ├── build.gradle
 └── settings.gradle
+
+
 
 /GemidexAPI
 ├── [ASP.NET API Project Files]
