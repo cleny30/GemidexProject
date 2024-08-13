@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CLENY\\Code\\GemidexAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9CE5AF-2515-47BE-BB9A-8D90D7BBB096}|GemidexAPI.csproj|c:\\users\\cleny\\code\\gemidexapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9CE5AF-2515-47BE-BB9A-8D90D7BBB096}|GemidexAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9CE5AF-2515-47BE-BB9A-8D90D7BBB096}|GemidexAPI.csproj|c:\\users\\cleny\\code\\gemidexapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E9CE5AF-2515-47BE-BB9A-8D90D7BBB096}|GemidexAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9CE5AF-2515-47BE-BB9A-8D90D7BBB096}|GemidexAPI.csproj|c:\\users\\cleny\\code\\gemidexapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9CE5AF-2515-47BE-BB9A-8D90D7BBB096}|GemidexAPI.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9CE5AF-2515-47BE-BB9A-8D90D7BBB096}|GemidexAPI.csproj|c:\\users\\cleny\\code\\gemidexapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E9CE5AF-2515-47BE-BB9A-8D90D7BBB096}|GemidexAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9CE5AF-2515-47BE-BB9A-8D90D7BBB096}|GemidexAPI.csproj|c:\\users\\cleny\\code\\gemidexapi\\model\\dto\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9CE5AF-2515-47BE-BB9A-8D90D7BBB096}|GemidexAPI.csproj|solutionrelative:model\\dto\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9CE5AF-2515-47BE-BB9A-8D90D7BBB096}|GemidexAPI.csproj|c:\\users\\cleny\\code\\gemidexapi\\model\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9CE5AF-2515-47BE-BB9A-8D90D7BBB096}|GemidexAPI.csproj|solutionrelative:model\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9CE5AF-2515-47BE-BB9A-8D90D7BBB096}|GemidexAPI.csproj|c:\\users\\cleny\\code\\gemidexapi\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9CE5AF-2515-47BE-BB9A-8D90D7BBB096}|GemidexAPI.csproj|solutionrelative:service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9CE5AF-2515-47BE-BB9A-8D90D7BBB096}|GemidexAPI.csproj|c:\\users\\cleny\\code\\gemidexapi\\irepository\\igemidexrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9CE5AF-2515-47BE-BB9A-8D90D7BBB096}|GemidexAPI.csproj|solutionrelative:irepository\\igemidexrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CLENY\\Code\\GemidexAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\CLENY\\Code\\GemidexAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAiwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T02:09:10.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\CLENY\\Code\\GemidexAPI\\Model\\Dto\\UserModel.cs",
+              "RelativeDocumentMoniker": "Model\\Dto\\UserModel.cs",
+              "ToolTip": "C:\\Users\\CLENY\\Code\\GemidexAPI\\Model\\Dto\\UserModel.cs",
+              "RelativeToolTip": "Model\\Dto\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T01:41:36.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\CLENY\\Code\\GemidexAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\CLENY\\Code\\GemidexAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-13T00:32:14.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\CLENY\\Code\\GemidexAPI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\CLENY\\Code\\GemidexAPI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T03:21:51.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\CLENY\\Code\\GemidexAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\CLENY\\Code\\GemidexAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-12T02:09:09.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\CLENY\\Code\\GemidexAPI\\Model\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "Model\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\CLENY\\Code\\GemidexAPI\\Model\\Entity\\User.cs",
+              "RelativeToolTip": "Model\\Entity\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T01:49:49.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\CLENY\\Code\\GemidexAPI\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\CLENY\\Code\\GemidexAPI\\Service\\UserService.cs",
+              "RelativeToolTip": "Service\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T12:47:42.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGemiDexRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CLENY\\Code\\GemidexAPI\\IRepository\\IGemiDexRepository.cs",
+              "RelativeDocumentMoniker": "IRepository\\IGemiDexRepository.cs",
+              "ToolTip": "C:\\Users\\CLENY\\Code\\GemidexAPI\\IRepository\\IGemiDexRepository.cs",
+              "RelativeToolTip": "IRepository\\IGemiDexRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T12:47:35.24Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

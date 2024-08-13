@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "khTBmVh47F1L65l/xLbC/sMKWE8yOwCbXWBWJvzsNLg=",
+  "Source": "GemidexAPI",
+  "BasePath": "_content/GemidexAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
