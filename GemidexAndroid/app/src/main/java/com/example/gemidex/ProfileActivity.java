@@ -66,8 +66,7 @@ public class ProfileActivity extends AppCompatActivity {
 
             UserObject userObject = new UserObject(0,email,fullName,googleId);
             loadData(fullName, imageURI);
-//            userResisterSendPost(userObject);
-            getUser("test");
+            userResisterSendPost(userObject);
         }
 
         signOutBtn.setOnClickListener(new View.OnClickListener() {
@@ -135,32 +134,4 @@ public class ProfileActivity extends AppCompatActivity {
             }
         });
     }
-
-    void getUser(String email) {
-        APIService.apiService.getUserByEmail(email).enqueue(new Callback<ApiResponse<UserObject>>() {
-            @Override
-            public void onResponse(Call<ApiResponse<UserObject>> call, Response<ApiResponse<UserObject>> response) {
-                if (response.isSuccessful() && response.body() != null) {
-                    ApiResponse<UserObject> apiResponse = response.body();
-                    if (apiResponse.getIsSuccess()) {
-                        UserObject user = apiResponse.getResult();
-                        // Process user object, e.g., show user details in the UI
-                        Toast.makeText(ProfileActivity.this, "User found: " + user.getFullName(), Toast.LENGTH_SHORT).show();
-                    } else {
-                        Toast.makeText(ProfileActivity.this, "API Error: " + apiResponse.getMessage(), Toast.LENGTH_SHORT).show();
-                    }
-                } else {
-                    Toast.makeText(ProfileActivity.this, "Response error", Toast.LENGTH_SHORT).show();
-                }
-            }
-
-            @Override
-            public void onFailure(Call<ApiResponse<UserObject>> call, Throwable t) {
-                Toast.makeText(ProfileActivity.this, "Send get error: " + t.getMessage(), Toast.LENGTH_SHORT).show();
-                Log.e("API_ERROR", t.getMessage());
-
-            }
-        });
-    }
-
 }
