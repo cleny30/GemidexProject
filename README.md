@@ -8,6 +8,7 @@ The Gemidex project consists of two main components:
 2. **GemidexAPI (ASP.NET RESTful API)**: A backend API that supports the Gemidex application by providing data and managing user accounts.
 
 **Note:** This project is intended for study purposes only and is not for commercial use.
+
 ## Directory Structure
 ```bash
 /Gemidex
