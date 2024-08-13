@@ -9,9 +9,9 @@ The Gemidex project consists of two main components:
 
 ## Directory Structure
 ```bash
-Gemidex
+/Gemidex
 ├── [Android Studio Project Files]
-├── app                    
+├── app/                    
 │   ├── com.example.gemidex          
 │   ├── Constant
 │   ├── Constant
@@ -19,7 +19,6 @@ Gemidex
 ├── gradle
 ├── build.gradle
 └── settings.gradle
-```
 
 
 /GemidexAPI
@@ -36,7 +35,7 @@ Gemidex
 │ └── GemidexContext.cs
 ├── appsettings.json
 └── GemidexAPI.csproj
-
+```
 ## Installation
 
 ### Set Up
