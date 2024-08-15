@@ -13,9 +13,9 @@ namespace GemidexAPI.Service
             _userRepository = userRepository;
         }
 
-        public UserModel GetUserModelByEmail(string email)
+        public UserModel GetUserModelById(string id)
         {
-            return _userRepository.GetUserModel(email);
+            return _userRepository.GetUserModel(id);
         }
 
         public bool Register(UserModel user)

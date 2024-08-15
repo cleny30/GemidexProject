@@ -5,8 +5,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 public class User
 {
     [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public int UserId { get; set; }
+    [MaxLength(255)]
+    public string GoogleId { get; set; }
 
     [Required]
     [MaxLength(255)]
@@ -15,6 +15,5 @@ public class User
     [MaxLength(255)]
     public string FullName { get; set; }
 
-    [MaxLength(255)]
-    public string GoogleId { get; set; }
+
 }

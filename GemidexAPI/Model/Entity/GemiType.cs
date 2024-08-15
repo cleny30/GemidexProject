@@ -7,9 +7,8 @@ namespace GemidexAPI.Model.Entity
     {
         [Key]
         [Required]
-
-        public string typeId { get; set; }
-        public string background { get; set; }
+        public string TypeId { get; set; }
+        public string TypeName { get; set; }
 
     }
 }

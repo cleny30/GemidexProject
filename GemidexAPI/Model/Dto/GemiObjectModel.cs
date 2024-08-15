@@ -2,14 +2,13 @@
 {
     public class GemiObjectModel
     {
-        public int UserId { get; set; }
-        public string email { get; set; }
-        public string typeId { get; set; }
-        public string gemiName { get; set; }
-        public string description { get; set; }
-        public string weight { get; set; }
-        public string heigh { get; set; }
-        public string category { get; set; }
-        public string speed { get; set; }
+        public string GoogleId { get; set; }
+        public string TypeName { get; set; }
+        public string GemiName { get; set; }
+        public string Description { get; set; }
+        public string Weight { get; set; }
+        public string Heigh { get; set; }
+        public string Category { get; set; }
+        public string Speed { get; set; }
     }
 }

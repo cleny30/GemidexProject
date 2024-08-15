@@ -14,9 +14,9 @@ namespace GemidexAPI.Repository
             _context = context;
         }
 
-        public UserModel GetUserModel(string email)
+        public UserModel GetUserModel(string id)
         {
-            User? user = _context.User.Where(a => a.Email.Equals(email)).SingleOrDefault();
+            User? user = _context.User.Where(a => a.GoogleId.Equals(id)).SingleOrDefault();
             if (user != null)
             {
                 var account = new UserModel();

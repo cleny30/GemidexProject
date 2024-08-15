@@ -8,37 +8,38 @@ namespace GemidexAPI.Model.Entity
         [Key]
         [Required]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int gemiID {  get; set; }
+        public int GemiId {  get; set; }
 
         [Required]
-        public int UserId { get; set; }
+        public string GoogleId { get; set; }
 
-        [Required]
-        public string typeId { get; set; }
+        public string TypeId { get; set; }
 
-        [Required]
-        [Column(TypeName = "varchar(MAX)")]
-        public string gemiName { get; set; }
+        public string SubTypeId { get; set; }
 
         [Required]
         [Column(TypeName = "varchar(MAX)")]
-        public string description { get; set; }
+        public string GemiName { get; set; }
 
         [Required]
         [Column(TypeName = "varchar(MAX)")]
-        public string weight { get; set; }
+        public string Description { get; set; }
 
         [Required]
         [Column(TypeName = "varchar(MAX)")]
-        public string heigh { get; set; }
+        public string Weight { get; set; }
 
         [Required]
         [Column(TypeName = "varchar(MAX)")]
-        public string category { get; set; }
+        public string Heigh { get; set; }
 
         [Required]
         [Column(TypeName = "varchar(MAX)")]
-        public string speed { get; set; }
+        public string Category { get; set; }
+
+        [Required]
+        [Column(TypeName = "varchar(MAX)")]
+        public string Speed { get; set; }
 
     }
 }

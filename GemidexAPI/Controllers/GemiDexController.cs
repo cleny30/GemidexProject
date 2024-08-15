@@ -16,11 +16,11 @@ namespace GemidexAPI.Controllers
             _service = service;
         }
 
-        [HttpPost("AddGemiObject")]
-        public APIResult AddToCart([FromBody] GemiObjectModel objetc)
+        [HttpPost("CreateGemidexEntry")]
+        public APIResult CreateGemidexEntry([FromBody] GemiObjectModel gemiObject)
         {
             APIResult result = new APIResult();
-            result.IsSuccess = _service.AddGemiObject(objetc);
+            result.IsSuccess = _service.AddGemiObject(gemiObject);
             return result;
         }
     }

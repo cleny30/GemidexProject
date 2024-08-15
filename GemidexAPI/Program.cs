@@ -63,6 +63,7 @@ using (var scope = app.Services.CreateScope())
     var service = scope.ServiceProvider;
     var context = service.GetRequiredService<GemidexContext>();
     context.Database.EnsureCreated();
+    DbInit.Initializer(context);
 }
 app.UseCors("MyAllowSpecificOrigins");
 

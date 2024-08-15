@@ -20,7 +20,7 @@ namespace GemidexAPI.Controllers
         public APIResult Register([FromBody] UserModel user)
         {
             APIResult result = new APIResult();
-            if (_service.GetUserModelByEmail(user.Email) == null) {
+            if (_service.GetUserModelById(user.GoogleId) == null) {
                 result.IsSuccess = _service.Register(user);
                 return result;
             }
@@ -30,10 +30,10 @@ namespace GemidexAPI.Controllers
 
 
         [HttpGet("User")]
-        public APIResult GetUser(string email)
+        public APIResult GetUser(string id)
         {
             APIResult result = new APIResult();
-            result.Result = _service.GetUserModelByEmail(email);
+            result.Result = _service.GetUserModelById(id);
             return result;
         }
     }

@@ -16,9 +16,9 @@ namespace GemidexAPI.Service
 
         public bool AddGemiObject(GemiObjectModel gemiObject)
         {
-            UserModel userModel = userService.GetUserModelByEmail(gemiObject.email);
+            UserModel userModel = userService.GetUserModelById(gemiObject.GoogleId);
 
-            gemiObject.UserId = userModel.UserId;
+            gemiObject.GoogleId = userModel.GoogleId;
             return gemiDexRepository.SaveGemiObject(gemiObject);
         }
     }
