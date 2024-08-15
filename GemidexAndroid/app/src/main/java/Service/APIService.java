@@ -3,6 +3,7 @@ package Service;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+import Constant.AppConstants;
 import Model.ApiResponse;
 import Model.UserObject;
 import retrofit2.Call;
@@ -19,14 +20,14 @@ public interface APIService {
             .create();
 
     APIService apiService = new Retrofit.Builder()
-            .baseUrl("http://192.168.1.5:5068/") // Your laptop's IP and API port
+            .baseUrl(AppConstants.BASE_URL) // Your laptop's IP and API port
             .addConverterFactory(GsonConverterFactory.create(gson))
             .build()
             .create(APIService.class);
 
-    @POST("api/Account/Register")
-    Call<POST> register(@Body UserObject userObject);
+    @POST(AppConstants.REGISTER_ENDPOINT)
+    Call<ApiResponse<Void>> register(@Body UserObject userObject);
 
-    @GET("api/Account/User")
+    @GET(AppConstants.USER_ENDPOINT)
     Call<ApiResponse<UserObject>> getUserByEmail(@Query("email") String email);
 }

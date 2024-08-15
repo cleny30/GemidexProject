@@ -64,7 +64,7 @@ public class ProfileActivity extends AppCompatActivity {
             String googleId = acct.getId();
             Uri imageURI = acct.getPhotoUrl();
 
-            UserObject userObject = new UserObject(0,email,fullName,googleId);
+            UserObject userObject = new UserObject(email,fullName,googleId);
             loadData(fullName, imageURI);
             userResisterSendPost(userObject);
         }
@@ -121,16 +121,24 @@ public class ProfileActivity extends AppCompatActivity {
     }
 
     void userResisterSendPost(UserObject user){
-        APIService.apiService.register(user).enqueue(new Callback<POST>() {
+        APIService.apiService.register(user).enqueue(new Callback<ApiResponse<Void>>() {
             @Override
-            public void onResponse(Call<POST> call, Response<POST> response) {
-                Toast.makeText(ProfileActivity.this,"Send post success", Toast.LENGTH_SHORT).show();
-
+            public void onResponse(Call<ApiResponse<Void>> call, Response<ApiResponse<Void>> response) {
+                if (response.isSuccessful() && response.body() != null) {
+                    ApiResponse<Void> apiResponse = response.body();
+                    if (apiResponse.getIsSuccess()) {
+                        Toast.makeText(ProfileActivity.this, "Register successful", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Toast.makeText(ProfileActivity.this, "Register failed: " + apiResponse.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                } else {
+                    Toast.makeText(ProfileActivity.this, "Register failed: " + response.message(), Toast.LENGTH_SHORT).show();
+                }
             }
 
             @Override
-            public void onFailure(Call<POST> call, Throwable t) {
-                Toast.makeText(ProfileActivity.this,"Send post error", Toast.LENGTH_SHORT).show();
+            public void onFailure(Call<ApiResponse<Void>> call, Throwable t) {
+                Toast.makeText(ProfileActivity.this, "Send post error: " + t.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
     }

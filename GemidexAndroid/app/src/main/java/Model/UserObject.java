@@ -1,24 +1,14 @@
 package Model;
 
 public class UserObject {
-    private int userId;
     private String email;
     private String fullName;
     private String googleId;
 
-    public UserObject(int userId,  String email, String fullName, String googleId) {
+    public UserObject(String email, String fullName, String googleId) {
         this.googleId = googleId;
         this.fullName = fullName;
         this.email = email;
-        this.userId = userId;
-    }
-
-    public int getUserId() {
-        return userId;
-    }
-
-    public void setUserId(int userId) {
-        this.userId = userId;
     }
 
     public String getEmail() {
