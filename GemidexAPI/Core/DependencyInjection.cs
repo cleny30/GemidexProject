@@ -11,10 +11,12 @@ namespace GemidexAPI.Core
         {
             services.AddScoped<IGemiDexRepository, GemidexRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IGemiTypeRepository, GemiTypeRepository>();
 
 
             services.AddScoped<GemidexService>();
             services.AddScoped<UserService>();
+            services.AddScoped<GemiTypeService>();
         }
     }
 }

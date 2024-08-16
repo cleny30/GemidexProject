@@ -7,11 +7,11 @@ namespace GemidexAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class GemiDexController : ControllerBase
+    public class GemidexController : ControllerBase
     {
         private readonly GemidexService _service;
 
-        public GemiDexController(GemidexService service)
+        public GemidexController(GemidexService service)
         {
             _service = service;
         }
@@ -20,8 +20,10 @@ namespace GemidexAPI.Controllers
         public APIResult CreateGemidexEntry([FromBody] GemiObjectModel gemiObject)
         {
             APIResult result = new APIResult();
+
             result.IsSuccess = _service.AddGemiObject(gemiObject);
             return result;
+
         }
     }
 }

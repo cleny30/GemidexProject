@@ -30,10 +30,10 @@ namespace GemidexAPI.Controllers
 
 
         [HttpGet("User")]
-        public APIResult GetUser(string id)
+        public APIResult GetUser(string googleId)
         {
             APIResult result = new APIResult();
-            result.Result = _service.GetUserModelById(id);
+            result.Result = _service.GetUserModelById(googleId);
             return result;
         }
     }

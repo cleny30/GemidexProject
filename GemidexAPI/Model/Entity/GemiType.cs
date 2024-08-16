@@ -9,6 +9,5 @@ namespace GemidexAPI.Model.Entity
         [Required]
         public string TypeId { get; set; }
         public string TypeName { get; set; }
-
     }
 }

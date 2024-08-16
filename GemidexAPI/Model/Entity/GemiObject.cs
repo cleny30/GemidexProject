@@ -41,5 +41,9 @@ namespace GemidexAPI.Model.Entity
         [Column(TypeName = "varchar(MAX)")]
         public string Speed { get; set; }
 
+        [Required]
+        [Column(TypeName = "varchar(MAX)")]
+        public string Img { get; set; }
+
     }
 }
