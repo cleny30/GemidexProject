@@ -247,15 +247,23 @@
                     android:typeface="sans"/>
 
                 <FrameLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp">
 
                     <ImageView
                         android:id="@+id/type_icon"
-                        android:background="@drawable/type_icon_normal"
+                        android:background="@drawable/type_icon_electric"
                         android:layout_width="153dp"
                         android:layout_height="55dp" />
+
+                    <ImageView
+                        android:id="@+id/subtype_icon"
+                        android:background="@drawable/type_icon_fire"
+                        android:layout_width="153dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="70dp"/>
 
                 </FrameLayout>
 

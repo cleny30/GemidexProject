@@ -23,6 +23,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 
+import IRepository.UserProfileCallback;
 import Model.ApiResponse;
 import Model.UserObject;
 import Service.APIService;
@@ -66,7 +67,24 @@ public class ProfileActivity extends AppCompatActivity {
 
             UserObject userObject = new UserObject(email,fullName,googleId);
             loadData(fullName, imageURI);
-            userResisterSendPost(userObject);
+
+            getUserProfile(acct.getId(), new UserProfileCallback() {
+                @Override
+                public void onResult(boolean isRegistered) {
+                    if (isRegistered) {
+                        // Handle the case where the user is already registered
+                        Toast.makeText(ProfileActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
+                    } else {
+                        // Handle the case where the user is not registered
+                        userResisterSendPost(userObject);
+                    }
+                }
+
+                @Override
+                public void onError(Throwable t) {
+                    // Handle the error
+                }
+            });
         }
 
         signOutBtn.setOnClickListener(new View.OnClickListener() {
@@ -142,4 +160,32 @@ public class ProfileActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void getUserProfile(String googleId, UserProfileCallback callback) {
+        APIService.apiService.getUserById(googleId).enqueue(new Callback<ApiResponse<UserObject>>() {
+            @Override
+            public void onResponse(Call<ApiResponse<UserObject>> call, Response<ApiResponse<UserObject>> response) {
+                if (response.isSuccessful() && response.body() != null) {
+                    ApiResponse<UserObject> apiResponse = response.body();
+                    if (apiResponse.getResult() != null) {
+                        // User is already registered
+                        callback.onResult(true);
+                    } else {
+                        // User is not registered
+                        callback.onResult(false);
+                    }
+                } else {
+                    // Handle unsuccessful response
+                    callback.onResult(false);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<ApiResponse<UserObject>> call, Throwable t) {
+                // Handle failure
+                callback.onError(t);
+            }
+        });
+    }
+
 }
