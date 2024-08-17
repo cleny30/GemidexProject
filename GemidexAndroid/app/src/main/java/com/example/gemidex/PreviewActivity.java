@@ -141,29 +141,28 @@ public class PreviewActivity extends AppCompatActivity {
 
             }
         }
-        uploadImage(imgFile, new UploadCloudinaryCallback() {
-            @Override
-            public void onSuccess(String url) {
-                // Image upload is successful, now you can use the URL
-                String imgURL = url;
+        // Get the GoogleSignInAccount
+        GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(this);
+        if (acct != null) {
+            uploadImage(imgFile, new UploadCloudinaryCallback() {
+                @Override
+                public void onSuccess(String url) {
+                    // Image upload is successful, now you can use the URL
+                    String imgURL = url;
 
-                // Get the GoogleSignInAccount
-                GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(PreviewActivity.this);
-                if (acct != null) {
                     // Create the GemiObject with the URL
                     GemiObject gemiObject = new GemiObject(acct.getId(), type_raw, subType_raw, gemiName, description, weight, heigh, category, speed, imgURL);
 
                     // Save the GemiObject
                     saveGemiObject(gemiObject);
                 }
-            }
-
-            @Override
-            public void onError(String errorMessage) {
-                // Handle error
-                Log.e("UploadError", errorMessage);
-            }
-        });
+                @Override
+                public void onError(String errorMessage) {
+                    // Handle error
+                    Log.e("UploadError", errorMessage);
+                }
+            });
+        }
     }
 
     void saveGemiObject(GemiObject gemiObject) {
